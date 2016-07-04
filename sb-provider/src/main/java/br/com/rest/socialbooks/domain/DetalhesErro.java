@@ -1,4 +1,4 @@
-package com.restful.socialbooks.domain;
+package br.com.rest.socialbooks.domain;
 
 public class DetalhesErro {
 

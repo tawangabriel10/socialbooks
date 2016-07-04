@@ -1,4 +1,4 @@
-package com.restful.socialbooks.services.exceptions;
+package br.com.rest.socialbooks.services.exceptions;
 
 public class LivroNaoEncontradoException extends RuntimeException {
 

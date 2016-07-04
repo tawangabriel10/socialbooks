@@ -1,4 +1,4 @@
-package com.restful.socialbooks.resources;
+package br.com.rest.socialbooks.resources;
 
 import java.net.URI;
 import java.util.List;
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.restful.socialbooks.domain.Comentario;
-import com.restful.socialbooks.domain.Livro;
-import com.restful.socialbooks.services.LivrosService;
+import br.com.rest.socialbooks.domain.Comentario;
+import br.com.rest.socialbooks.domain.Livro;
+import br.com.rest.socialbooks.services.LivrosService;
 
 @RestController
 @RequestMapping("/livros")

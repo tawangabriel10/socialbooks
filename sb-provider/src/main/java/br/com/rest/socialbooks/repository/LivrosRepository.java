@@ -1,10 +1,10 @@
-package com.restful.socialbooks.repository;
+package br.com.rest.socialbooks.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.restful.socialbooks.domain.Livro;
+import br.com.rest.socialbooks.domain.Livro;
 
 public interface LivrosRepository extends JpaRepository<Livro, Long> {
 	

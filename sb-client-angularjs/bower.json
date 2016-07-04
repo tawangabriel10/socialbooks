@@ -1,0 +1,61 @@
+{
+  "name": "sb-client-angularjs",
+  "description": "API Social para Livros",
+  "main": "index.js",
+  "authors": [
+    "tawangabriel10"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "socialbooks",
+    "angularjs"
+  ],
+  "homepage": "https://github.com/tawangabriel10/socialbooks",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-aria": "1.4.8",
+    "angular-cache-buster": "0.4.3",
+    "angular-cookies": "1.4.8",
+    "angular-local-storage": "0.2.3",
+    "angular-loading-bar": "0.8.0",
+    "angular-resource": "1.4.8",
+    "angular-sanitize": "1.4.8",
+    "angular-ui-router": "0.2.15",
+    "angular-animate": "1.4.8",
+    "angular-material": "1.0.5",
+    "json3": "3.3.2",
+    "modernizr": "3.2.0",
+    "ng-file-upload": "10.0.2",
+    "ngInfiniteScroll": "1.2.1",
+    "swagger-ui": "2.1.3",
+    "angular-input-masks": "~2.1.1",
+    "angular-i18n": "1.4.8",
+    "angular-br-filters": "~0.5.0",
+    "v-accordion": "1.4.2",
+    "angular-openlayers-directive": "~1.9.2",
+    "angular-material-icons": "0.6.0",
+    "ol3": "ol3-bower#^3.14.2",
+    "angular-slick-carousel": "^3.1.4",
+    "angular-ui-mask": "^1.8.3",
+    "angular-material-data-table": "^0.10.3",
+    "lodash": "^4.12.0",
+    "validator-js": "^5.2.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.8",
+    "angular-scenario": "1.4.8"
+  },
+  "overrides": {},
+  "resolutions": {
+    "angular": "1.4.8",
+    "angular-sanitize": "1.4.9"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

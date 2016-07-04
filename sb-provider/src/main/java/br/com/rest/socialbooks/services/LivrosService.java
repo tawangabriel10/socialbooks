@@ -1,4 +1,4 @@
-package com.restful.socialbooks.services;
+package br.com.rest.socialbooks.services;
 
 import java.util.Date;
 import java.util.List;
@@ -7,11 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import com.restful.socialbooks.domain.Comentario;
-import com.restful.socialbooks.domain.Livro;
-import com.restful.socialbooks.repository.ComentariosRepository;
-import com.restful.socialbooks.repository.LivrosRepository;
-import com.restful.socialbooks.services.exceptions.LivroNaoEncontradoException;
+import br.com.rest.socialbooks.domain.Comentario;
+import br.com.rest.socialbooks.domain.Livro;
+import br.com.rest.socialbooks.repository.ComentariosRepository;
+import br.com.rest.socialbooks.repository.LivrosRepository;
+import br.com.rest.socialbooks.services.exceptions.LivroNaoEncontradoException;
 
 @Service
 public class LivrosService {

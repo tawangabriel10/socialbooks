@@ -1,4 +1,4 @@
-package com.restful.socialbooks;
+package br.com.rest.socialbooks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

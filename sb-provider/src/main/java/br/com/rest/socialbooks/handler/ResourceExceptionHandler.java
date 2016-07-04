@@ -1,4 +1,4 @@
-package com.restful.socialbooks.handler;
+package br.com.rest.socialbooks.handler;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -7,8 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.restful.socialbooks.domain.DetalhesErro;
-import com.restful.socialbooks.services.exceptions.LivroNaoEncontradoException;
+import br.com.rest.socialbooks.domain.DetalhesErro;
+import br.com.rest.socialbooks.services.exceptions.LivroNaoEncontradoException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
