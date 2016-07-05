@@ -20,7 +20,7 @@ import br.com.rest.socialbooks.services.LivrosService;
 
 @RestController
 @RequestMapping("/livros")
-public class LivrosResources {
+public class LivrosResource {
 	
 	@Autowired
 	private LivrosService livrosService;
